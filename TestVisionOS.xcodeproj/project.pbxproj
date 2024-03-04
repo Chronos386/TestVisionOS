@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31283032B95FA82008961AD /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C31283022B95FA82008961AD /* RealityKitContent */; };
+		C31283052B95FA82008961AD /* TestVisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31283042B95FA82008961AD /* TestVisionOSApp.swift */; };
+		C31283072B95FA82008961AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31283062B95FA82008961AD /* ContentView.swift */; };
+		C31283092B95FA82008961AD /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31283082B95FA82008961AD /* ImmersiveView.swift */; };
+		C312830B2B95FA82008961AD /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = C312830A2B95FA82008961AD /* ImageBasedLighting.skybox */; };
+		C312830D2B95FA85008961AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C312830C2B95FA85008961AD /* Assets.xcassets */; };
+		C31283102B95FA85008961AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C312830F2B95FA85008961AD /* Preview Assets.xcassets */; };
+		C312831E2B95FAF1008961AD /* БРС_№1_Статья_Мартон_12002333.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C31283192B95FAF1008961AD /* БРС_№1_Статья_Мартон_12002333.pdf */; };
+		C312831F2B95FAF1008961AD /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = C312831A2B95FAF1008961AD /* photo2.png */; };
+		C31283202B95FAF1008961AD /* Praktikum_laboratorny.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C312831B2B95FAF1008961AD /* Praktikum_laboratorny.pdf */; };
+		C31283212B95FAF1008961AD /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C312831C2B95FAF1008961AD /* photo.jpg */; };
+		C31283222B95FAF1008961AD /* Мартон_Н_А_12002333_задание_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C312831D2B95FAF1008961AD /* Мартон_Н_А_12002333_задание_2.pdf */; };
+		C31283242B95FB36008961AD /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C31283232B95FB36008961AD /* Localizable.xcstrings */; };
+		C31283272B95FB9C008961AD /* AlertsShower.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31283262B95FB9C008961AD /* AlertsShower.swift */; };
+		C31283292B95FBB0008961AD /* PdfConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31283282B95FBB0008961AD /* PdfConvertor.swift */; };
+		C312832B2B95FBC6008961AD /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C312832A2B95FBC6008961AD /* ActivityIndicatorView.swift */; };
+		C312832D2B95FBDC008961AD /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C312832C2B95FBDC008961AD /* RoundButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C31282FD2B95FA82008961AD /* TestVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31283042B95FA82008961AD /* TestVisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVisionOSApp.swift; sourceTree = "<group>"; };
+		C31283062B95FA82008961AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C31283082B95FA82008961AD /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		C312830A2B95FA82008961AD /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		C312830C2B95FA85008961AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C312830F2B95FA85008961AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C31283112B95FA85008961AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31283192B95FAF1008961AD /* БРС_№1_Статья_Мартон_12002333.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "БРС_№1_Статья_Мартон_12002333.pdf"; sourceTree = "<group>"; };
+		C312831A2B95FAF1008961AD /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		C312831B2B95FAF1008961AD /* Praktikum_laboratorny.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Praktikum_laboratorny.pdf; sourceTree = "<group>"; };
+		C312831C2B95FAF1008961AD /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		C312831D2B95FAF1008961AD /* Мартон_Н_А_12002333_задание_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Мартон_Н_А_12002333_задание_2.pdf"; sourceTree = "<group>"; };
+		C31283232B95FB36008961AD /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C31283262B95FB9C008961AD /* AlertsShower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsShower.swift; sourceTree = "<group>"; };
+		C31283282B95FBB0008961AD /* PdfConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfConvertor.swift; sourceTree = "<group>"; };
+		C312832A2B95FBC6008961AD /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		C312832C2B95FBDC008961AD /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31282FA2B95FA82008961AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31283032B95FA82008961AD /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31282F42B95FA82008961AD = {
+			isa = PBXGroup;
+			children = (
+				C31282FF2B95FA82008961AD /* TestVisionOS */,
+				C31282FE2B95FA82008961AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31282FE2B95FA82008961AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31282FD2B95FA82008961AD /* TestVisionOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31282FF2B95FA82008961AD /* TestVisionOS */ = {
+			isa = PBXGroup;
+			children = (
+				C31283252B95FB8A008961AD /* Additions */,
+				C31283172B95FAD0008961AD /* Resources */,
+				C31283042B95FA82008961AD /* TestVisionOSApp.swift */,
+				C31283062B95FA82008961AD /* ContentView.swift */,
+				C31283082B95FA82008961AD /* ImmersiveView.swift */,
+			);
+			path = TestVisionOS;
+			sourceTree = "<group>";
+		};
+		C312830E2B95FA85008961AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C312830F2B95FA85008961AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C31283172B95FAD0008961AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C31283182B95FADD008961AD /* Files */,
+				C312830E2B95FA85008961AD /* Preview Content */,
+				C312830A2B95FA82008961AD /* ImageBasedLighting.skybox */,
+				C312830C2B95FA85008961AD /* Assets.xcassets */,
+				C31283112B95FA85008961AD /* Info.plist */,
+				C31283232B95FB36008961AD /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C31283182B95FADD008961AD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31283192B95FAF1008961AD /* БРС_№1_Статья_Мартон_12002333.pdf */,
+				C312831D2B95FAF1008961AD /* Мартон_Н_А_12002333_задание_2.pdf */,
+				C312831C2B95FAF1008961AD /* photo.jpg */,
+				C312831A2B95FAF1008961AD /* photo2.png */,
+				C312831B2B95FAF1008961AD /* Praktikum_laboratorny.pdf */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		C31283252B95FB8A008961AD /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C31283262B95FB9C008961AD /* AlertsShower.swift */,
+				C31283282B95FBB0008961AD /* PdfConvertor.swift */,
+				C312832A2B95FBC6008961AD /* ActivityIndicatorView.swift */,
+				C312832C2B95FBDC008961AD /* RoundButton.swift */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31282FC2B95FA82008961AD /* TestVisionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31283142B95FA85008961AD /* Build configuration list for PBXNativeTarget "TestVisionOS" */;
+			buildPhases = (
+				C31282F92B95FA82008961AD /* Sources */,
+				C31282FA2B95FA82008961AD /* Frameworks */,
+				C31282FB2B95FA82008961AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestVisionOS;
+			packageProductDependencies = (
+				C31283022B95FA82008961AD /* RealityKitContent */,
+			);
+			productName = TestVisionOS;
+			productReference = C31282FD2B95FA82008961AD /* TestVisionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31282F52B95FA82008961AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C31282FC2B95FA82008961AD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C31282F82B95FA82008961AD /* Build configuration list for PBXProject "TestVisionOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = C31282F42B95FA82008961AD;
+			productRefGroup = C31282FE2B95FA82008961AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31282FC2B95FA82008961AD /* TestVisionOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31282FB2B95FA82008961AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31283212B95FAF1008961AD /* photo.jpg in Resources */,
+				C312831F2B95FAF1008961AD /* photo2.png in Resources */,
+				C312830D2B95FA85008961AD /* Assets.xcassets in Resources */,
+				C31283102B95FA85008961AD /* Preview Assets.xcassets in Resources */,
+				C312830B2B95FA82008961AD /* ImageBasedLighting.skybox in Resources */,
+				C31283222B95FAF1008961AD /* Мартон_Н_А_12002333_задание_2.pdf in Resources */,
+				C312831E2B95FAF1008961AD /* БРС_№1_Статья_Мартон_12002333.pdf in Resources */,
+				C31283202B95FAF1008961AD /* Praktikum_laboratorny.pdf in Resources */,
+				C31283242B95FB36008961AD /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31282F92B95FA82008961AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31283272B95FB9C008961AD /* AlertsShower.swift in Sources */,
+				C31283072B95FA82008961AD /* ContentView.swift in Sources */,
+				C312832D2B95FBDC008961AD /* RoundButton.swift in Sources */,
+				C31283292B95FBB0008961AD /* PdfConvertor.swift in Sources */,
+				C312832B2B95FBC6008961AD /* ActivityIndicatorView.swift in Sources */,
+				C31283052B95FA82008961AD /* TestVisionOSApp.swift in Sources */,
+				C31283092B95FA82008961AD /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C31283122B95FA85008961AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		C31283132B95FA85008961AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		C31283152B95FA85008961AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestVisionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = ZRH88KCDJB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronos386.realityvisiontest.TestVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		C31283162B95FA85008961AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestVisionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = ZRH88KCDJB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chronos386.realityvisiontest.TestVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31282F82B95FA82008961AD /* Build configuration list for PBXProject "TestVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31283122B95FA85008961AD /* Debug */,
+				C31283132B95FA85008961AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31283142B95FA85008961AD /* Build configuration list for PBXNativeTarget "TestVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31283152B95FA85008961AD /* Debug */,
+				C31283162B95FA85008961AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C31283022B95FA82008961AD /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C31282F52B95FA82008961AD /* Project object */;
+}
